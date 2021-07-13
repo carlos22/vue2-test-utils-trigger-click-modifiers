@@ -12,3 +12,10 @@ test("right click", async () => {
   await wrapper.find(".btn").trigger("click", { button: 2 });
   expect(wrapper.find(".btn").text()).toBe("right");
 });
+
+
+test("right click with modifier", async () => {
+  const wrapper = mount(App);
+  await wrapper.find(".btn").trigger("click.right");
+  expect(wrapper.find(".btn").text()).toBe("right");
+});
