@@ -1,0 +1,26 @@
+{
+  "name": "vue2-test-utils-trigger-click-modifiers",
+  "version": "0.1.0",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "@vue/cli-plugin-babel": "^4.5.13",
+    "@vue/cli-service": "^4.5.13",
+    "@vue/test-utils": "^1.2.1",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^24.5.0",
+    "jest": "^24.5.0",
+    "jest-serializer-vue": "^2.0.2",
+    "vue": "^2.6.9",
+    "vue-jest": "^3.0.7",
+    "vue-template-compiler": "^2.6.14"
+  },
+  "keywords": [],
+  "description": ""
+}
